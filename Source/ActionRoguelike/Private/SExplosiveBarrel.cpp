@@ -45,7 +45,7 @@ void ASExplosiveBarrel::OnActorHit(UPrimitiveComponent* HitComponent, AActor* Ot
 {
 	ForceComp->FireImpulse();
 
-	// UE_LOGFMT(LogGame, Log, "OnActorHit in Explosive Barrel");
+	// UE_LOGFMT(LogGame, Log, TEXT("OnActorHit in Explosive Barrel"));
 
 	// Warning as structed logs even show up in the "Message Log" window of UnrealEd
 	// UE_LOGFMT(LogGame, Warning, "OnActorHit, OtherActor: {name}, at game time: {timeseconds}", GetNameSafe(OtherActor), GetWorld()->TimeSeconds);
